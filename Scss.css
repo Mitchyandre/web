@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 10px;
+  padding: 10px;
+   text-align: center;
+background-image: url("img/hero.png");
+background-size: 100%;
+background-position: center;box-sizing: border-box;
+}
+
+ h1,h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  color: #00E8FC;
+
+}
+ p {
+  color:#00E8FC ;
+ }
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+   padding: auto;
+text-align: center;
+color: white;
+ background-position: center;
+ 
+}
+nav .logo {
+  font-size: 10px;
+   max-width: 150px;
+  font-weight: bold;
+imagea-align:center;
+}
+
+
+.loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        
+nav .logo img {
+  max-width: 100px;
+  height: auto;
+  background-color:black; 
+}
+nav a {
+  color:#white ;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+.menu {
+  display: flex;
+background-color: black;
+}
+
+.menu a {
+  margin-right: 10px auto;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+
+/* Home Page Styles */
+.home {
+ height: 400px;
+padding: 20px;
+margin-: 20px 
+}
+home h1 {
+background-color: #ACAD94;
+text-align: center;
+background-image: url("img/header.png");
+background-size: 100%;
+background-position: center;
+
+
+
+
+
+container h1 {
+  width: 80%;
+ background-color: black;
+ margin: 0 auto;
+}
+
+}
+
+}
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+          }
+
+
+.home p {
+color: #BAFF29;
+text-align: center;
+font-size: 1.2rem;
+line-height: 1.6;
+}
+
+/* About Page Styles */
+.about {
+  background-color: #945600;
+  padding:10px ;
+background-color: #ACAD94;
+text-align: center;
+background-image: url("img/header.png");
+background-size: 100%;
+background-position: center;
+}
+
+}
+.about p {color: #BAFF29;
+text-align: center;
+font-size: 1.2rem;
+line-height: 1.6;
+}
+
+/* Services Page Styles */
+.services {
+  background-color: #945600;
+
+  padding: 10px;
+
+.container {
+  width: 80%;
+ background-color: black;
+ margin: 0 auto;
+
+}
+
+ }
+ .services p {color: #BAFF29;
+text-align: center;
+font-size: 1.2rem;
+line-height: 1.6;
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin:auto;
+        }
+        .content > div {
+            padding: 10px;
+        }
+        .column-1 {
+            width: 20%;
+        }
+        .column-2 {
+            width: 20%;
+        }
+        .column-3 {
+            width: 20%;
+        }
+   .column-4 {
+            width: 20%;
+        }
+        .column-5 {
+            width: 20%;
+        }
+        
+/* Portfolio Page Styles */
+
+.porfolio {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.porfolio:hover {
+  border: 1px solid #777;
+}
+
+.porfolio img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Blog Page Styles */
+.blog {
+  background-color: #945600;
+  padding: 20px;
+}
+.blog p 
+{color: #BAFF29;
+text-align: center;
+font-size: 1.2rem;
+line-height: 1.6;
+
+/* Contact Page Styles */
+.contact {
+background-color: white;
+  padding: 20px;
+}
+
+.contact{
+  width: 80%;
+ color: white;
+ margin: 0 auto;
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+
+
+form label {
+ 
+  margin-top: 1rem;
+}
+
+form input, form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: #ACAD94;
+            float: left;
+            display: inline;
+  padding:10px 30px;
+}
