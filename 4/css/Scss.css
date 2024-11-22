@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("img/hero.png");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  color: #00E8FC;
+}
+
+p {
+  color: #00E8FC;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav .logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+}
+
+/* Home Page Styles */
+.home {
+  height: 400px;
+  padding: 20px;
+  background-image: url("img/header.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.home h1 {
+  background-color: rgba(172, 173, 148, 0.8);
+  padding: 20px;
+  font-size: 36px;
+}
+
+.home p {
+  color: #BAFF29;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* About Page Styles */
+.about {
+  background-color: #ACAD94;
+  padding: 20px;
+  background-image: url("img/header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.about p {
+  color: #BAFF29;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Services Page Styles */
+.services {
+  background-color: #945600;
+  padding: 20px;
+}
+
+.services .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.services p {
+  color: #BAFF29;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.content > div {
+  padding: 10px;
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content > div {
+    width: 100%;
+  }
+}
+
+/* Portfolio Page Styles */
+.portfolio {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  float: left;
+}
+
+.portfolio:hover {
+  border: 1px solid #777;
+}
+
+.portfolio img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.responsive {
+  padding: 0 6px;
+  width: 24.99999%;
+  float: left;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Blog Page Styles */
+.blog {
+  background-color: #945600;
+  padding: 20px;
+}
+
+.blog p {
+  color: #BAFF29;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Contact Page Styles */
+.contact {
+  background-color: white;
+  padding: 20px;
+}
+
+.contact .container {
+  width: 80%;
+  color: black;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input, form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: #ACAD94;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin-right: 20px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #BAFF29;
+}
